@@ -13,6 +13,8 @@ exec --no-startup-id xrandr --output DisplayPort-0 --off --output DisplayPort-1-
 exec xautolock -time 15 -locker "i3lock -c 000000" &
 
 bindsym $mod+F8 exec i3lock -c 000000
+bindsym $mod+Shift+s exec setxkbmap -layout se
+bindsym $mod+Shift+u exec setxkbmap -layout us
 
 # i3 config file (v4)
 #
